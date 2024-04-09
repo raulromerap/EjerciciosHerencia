@@ -38,8 +38,9 @@ public class Rectangulo  extends Poligono{
 	
 	@Override
 	public String toString() {
-		String res = super.toString();
-		res += "\n" + "Area: " + this.area();
+		String res = super.toString() + "\n Rectangulo";
+		res += "\n Lado 1" + this.lado1;
+		res += "\n Lado 2" + this.lado2;
 		return res;
 	}
 }

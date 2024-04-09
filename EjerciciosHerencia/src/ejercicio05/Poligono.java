@@ -23,6 +23,7 @@ public abstract  class Poligono {
 	public String toString() {
 		String res = "";
 		res+= "Lados: " + this.numeroLados;
+		res+= "\n" + "Area: " + this.area();
 		return res;
 	}
 }
