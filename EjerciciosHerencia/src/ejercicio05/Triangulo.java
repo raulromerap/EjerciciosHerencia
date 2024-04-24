@@ -1,6 +1,6 @@
 package ejercicio05;
 
-public class Triangulo  extends Poligono{
+public class Triangulo extends Poligono{
 
 	private double lado1;
 	private double lado2;

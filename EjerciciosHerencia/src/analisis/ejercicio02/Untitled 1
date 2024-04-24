@@ -1,0 +1,45 @@
+ babstract Ficha
+	- codigo: int
+	- titulo: String
+	-------------------------
+	+ getCodigo()
+	+ getTitulo()
+	+ prestar() abstract
+
+Revista extends Ficha
+	- numero: int
+	- anyoL: int
+	-------------------
+	+ getAnyoL()
+	+ setAnyoL(int anyo)
+	+ getNumero()
+	+ setNumero(int numero)
+	----------------------------
+	heredados:
+		+ prestar()
+
+DVD  extends Ficha
+	enum Tipo {PELICULA, DOCUMENTAL, SERIE}
+	- director: String
+	- anyoR: int
+	- tipoRevista Tipo
+	---------------------------------
+	+ getDirector()
+	+ getAnyoR()
+	+ getTipoRevista()
+	+ setDirector(String director)
+	+ setAnyoR(int anyoR)
+	+ setTipoRevista(String tipoRevista)
+	------------------------------------
+	heredados:
+		+ prestar()
+Libro
+	- autor: String
+	- editorial: String
+	------------------------
+	+ getAutor()
+	+ getEditorial()
+	--------------------------
+	heredados:
+		+ prestar()
+	

@@ -1,0 +1,16 @@
+Contacto
+	#nombre; String
+	#telefono: int
+	-----------------------------------
+	+Contacto(String nombre, int telefono)
+	+equals(Contacto cont): boolean
+
+Persona extends Contacto
+	- cumpleanyos: String
+	---------------------------
+	+ Persona(super(), String cumpleanyos)
+
+Empresa extends Contacto
+	- paginaWeb: String
+	---------------------------
+	+ Empresa(super())

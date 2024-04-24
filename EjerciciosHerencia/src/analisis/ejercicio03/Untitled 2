@@ -1,0 +1,47 @@
+CuentaBancaria
+	- numCuenta: int
+	- saldo: double
+	- titulares[3]: Titular
+	-------------------------------
+	+CuentaBancaria(int numCuenta, double saldo)
+	+ getSaldo()
+	+ setSaldo(double saldo)
+	+ getNumCuenta()
+	+ ingresarDinero(double cant, Titular titular)
+	+ retirarDinero(double cant, Titular titular)
+	+ añadirTitular(Titular titular)
+	+ borrarTitular(Titular titular)
+	- posLibre(): int
+	- posCubierta(TItular titular): int
+
+Titular
+	- dni: String
+	- nombre: String
+	- apellidos: String
+	- telefono: int
+	-------------------------
+	+ Titular(String dni, String nombre, String apellidos, int telefono)
+	+ getDni(): String
+	+ getNombre(): String
+	+ setNombre(String nombre)
+	+ getApellidos(): String
+	+ setApellidos(String apellidos)
+	+ setTelefono(int telefono)
+	+ getTelefono(): int
+	
+CuentaAhorro extends CuentaBancaria
+	- cuotaMant: double
+	- saldoIntereses: double
+	--------------------------------------
+	+ getCuotaMant()
+	+ setCuotaMant(double cuotaMant)
+	+ getSaldoIntereses()
+	+ aplicar()
+	--------------------------------------
+	heredados: 
+		+ getSaldo()
+		+ setSaldo()
+		+ getNumCuenta()
+		
+CuentaCorriente extends CuentaBancaria
+	
