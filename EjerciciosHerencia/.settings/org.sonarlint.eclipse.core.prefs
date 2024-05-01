@@ -1,4 +1,4 @@
 autoEnabled=true
 bindingSuggestionsDisabled=false
 eclipse.preferences.version=1
-fileExclusions=FILE\:src/ejercicio04/Electrodomestico.java\r\nFILE\:src/ejercicio05/Triangulo.java
+fileExclusions=FILE\:src/ejercicio04/Electrodomestico.java\r\nFILE\:src/ejercicio05/Triangulo.java\r\nFILE\:src/interfaces/ejercicio03/Animal.java\r\nFILE\:src/interfaces/ejercicio03/AnimalDomestico.java\r\nFILE\:src/interfaces/ejercicio03/Principal.java
